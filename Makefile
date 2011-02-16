@@ -1,10 +1,10 @@
-include $(GOROOT)/src/Make.$(GOARCH)
+include $(GOROOT)/src/Make.inc
 
 TARG     = migemo
 CGOFILES = file.go
 
 CGO_CFLAGS  = -I../src
-CGO_LDFLAGS  = -L.. -lmigemo
+CGO_LDFLAGS  = -L.. -lmigemo.dll
 
 include $(GOROOT)/src/Make.pkg
 
