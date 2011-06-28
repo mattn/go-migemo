@@ -1,6 +1,6 @@
 include $(GOROOT)/src/Make.inc
 
-TARG     = migemo
+TARG     = github.com/mattn/go-migemo/migemo
 CGOFILES = file.go
 
 CGO_CFLAGS  = -I../src
