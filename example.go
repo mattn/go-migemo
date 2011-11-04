@@ -3,7 +3,7 @@ package main
 import (
   "fmt";
   "regexp";
-  "migemo";
+  "github.com/mattn/go-migemo/migemo";
 )
 
 func main() {
