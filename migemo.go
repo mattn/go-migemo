@@ -9,8 +9,8 @@ static void _migemo_release(migemo* object, const char* str) {
   migemo_release(object, (unsigned char*)str);
 }
 
-// #cgo LDFLAGS: -lmigemo
 */
+// #cgo LDFLAGS: -lmigemo
 import "C";
 
 const MIGEMO_DICTID_MIGEMO = 1;
