@@ -8,6 +8,8 @@ static char* _migemo_query(migemo* object, const char* query) {
 static void _migemo_release(migemo* object, const char* str) {
   migemo_release(object, (unsigned char*)str);
 }
+
+// #cgo LDFLAGS: -lmigemo
 */
 import "C";
 
